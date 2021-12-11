@@ -1,0 +1,127 @@
+.error {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: darkred;
+    color: #fff;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.widget {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    overflow: hidden;
+    border: 1px solid var(--bg-color);
+    font-size: 16px;
+    border-radius: 0.25em;
+    background: #fff;
+    color: #222;
+}
+
+.dark {
+    background: #242424;
+    color: #fff;
+}
+
+.widget * {
+    all: unset;
+}
+
+.widget header {
+    display: block;
+    padding: 1em;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-size: 0.875em;
+}
+
+.widget header span {
+    font-size: 1.063em;
+    font-weight: 500;
+    margin-right: 0.438em;
+}
+
+.widget table {
+    display: table;
+    width: 100%;
+}
+
+.widget table thead {
+    display: table-header-group;
+}
+
+.widget table tbody {
+    display: table-row-group;
+}
+
+.widget table tr {
+    display: table-row;
+}
+
+.widget table th, .widget table td {
+    display: table-cell;
+    padding: 0.5em 0.7em;
+    vertical-align: middle;
+}
+
+.widget table th {
+    font-size: 0.938em;
+    font-weight: 500;
+    background: #f8f8f8;
+    border-bottom: 1px solid #eee;
+}
+
+.dark table th {
+    background: #333;
+    color: #fff;
+    border-bottom-color: #444;
+}
+
+.widget table td {
+    font-size: 0.875em;
+    padding: 0.8em 0.7em;
+    border-bottom: 1px solid #eee;
+}
+
+.dark table td {
+    border-bottom-color: #353535;
+}
+
+.widget table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.link {
+    background: var(--bg-color);
+    display: inline-flex;
+    align-items: center;
+    padding: 0 1.5em;
+    height: 1.75em;
+    border-radius: 0.25em;
+    color: var(--text-color);
+    font-size: 0.875em;
+    cursor: pointer;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.author img {
+    width: 1.563em;
+    height: 1.563em;
+    border-radius: 50%;
+    margin-right: 0.313em;
+}
+
+.date {
+    font-size: 0.75em;
+    display: block;
+    padding-top: 0.313em;
+    opacity: .5;
+}
