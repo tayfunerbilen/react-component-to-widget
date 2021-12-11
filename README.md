@@ -8,7 +8,7 @@ Demo:
 https://codepen.io/tayfunerbilen/pen/BawLOEw
 
 Youtube dersine gözatmayı unutmayıın!
-https://youtu.be/UVIL8lRohvM
+https://youtu.be/ArhvLctzvq4
 
 ---
 
