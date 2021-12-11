@@ -9,3 +9,11 @@ https://codepen.io/tayfunerbilen/pen/BawLOEw
 
 Youtube dersine gözatmayı unutmayıın!
 https://youtu.be/UVIL8lRohvM
+
+---
+
+Widget buildi almak için
+```
+yarn build:widget
+```
+kullanın.
